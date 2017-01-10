@@ -24,9 +24,11 @@ public class Solution {
 
         for (int i = 1; i < sortedList.size(); i++) {
             distance = sortedList.get(i) - prev;
+            prev = sortedList.get(i);
 
             if (distance < minimumDistance)
                 minimumDistance = distance;
+
         }
 
         return minimumDistance;

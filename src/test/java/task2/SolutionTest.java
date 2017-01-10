@@ -17,4 +17,13 @@ public class SolutionTest {
         Assert.assertEquals(0, Solution.solution(new int[]{7, 21, 3, 42, 3, 7}) );
     }
 
+    @Test
+    public void testSolution3() throws Exception {
+        Assert.assertEquals(2, Solution.solution(new int[]{5,1,7,10}) );
+    }
+
+    @Test
+    public void testSolution4() throws Exception {
+        Assert.assertEquals(2, Solution.solution(new int[]{11,2,7,13,16}) );
+    }
 }
